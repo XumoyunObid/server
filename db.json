@@ -1,0 +1,1897 @@
+{
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$vZs2FSJ2bSFOSduLAdTY/eX6GCJALbLznXtflYjlpgyifUA5M1VRu",
+      "id": 2
+    },
+    {
+      "email": "qwerty@gmail.com",
+      "password": "$2a$10$HsvnCNfTbgDqYfJGY53jvOfHYMeMD3Y6MKvOmWaMJpC4q9YqTOfja",
+      "id": 3
+    },
+    {
+      "email": "johndoe@gmail.com",
+      "password": "$2a$10$WgoHSwzzT9LE66rXRYK1Me6SscIXzH0BQ50Gc8J7BBPLV6FhvXBge",
+      "id": 4
+    }
+  ],
+  "brand": [
+    {
+      "id": 1,
+      "img": "https://github.com/XumoyunObid/images/blob/main/kitchenaid.jpg?raw=true",
+      "title": "KitchenAid"
+    },
+    {
+      "id": 2,
+      "img": "https://github.com/XumoyunObid/images/blob/main/sony.jpg?raw=true",
+      "title": "Sony"
+    },
+    {
+      "id": 3,
+      "img": "https://github.com/XumoyunObid/images/blob/main/haier.jpg?raw=true",
+      "title": "Haier"
+    },
+    {
+      "id": 4,
+      "img": "https://github.com/XumoyunObid/images/blob/main/bosch.jpg?raw=true",
+      "title": "Bosch"
+    },
+    {
+      "id": 5,
+      "img": "https://github.com/XumoyunObid/images/blob/main/mi.jpg?raw=true",
+      "title": "Redmi"
+    },
+    {
+      "id": 6,
+      "img": "https://github.com/XumoyunObid/images/blob/main/huawei.jpg?raw=true",
+      "title": "Huawei"
+    },
+    {
+      "id": 7,
+      "img": "https://github.com/XumoyunObid/images/blob/main/lg.jpg?raw=true",
+      "title": "LG Elecrtonics"
+    },
+    {
+      "id": 8,
+      "img": "https://github.com/XumoyunObid/images/blob/main/hp.jpg?raw=true",
+      "title": "HP"
+    },
+    {
+      "id": 9,
+      "img": "https://github.com/XumoyunObid/images/blob/main/logitech.jpg?raw=true",
+      "title": "Logitech"
+    },
+    {
+      "id": 10,
+      "img": "https://github.com/XumoyunObid/images/blob/main/apple.jpg?raw=true",
+      "title": "Apple"
+    },
+    {
+      "id": 11,
+      "img": "https://github.com/XumoyunObid/images/blob/main/tefal.jpg?raw=true",
+      "title": "Tefal"
+    },
+    {
+      "id": 12,
+      "img": "https://github.com/XumoyunObid/images/blob/main/samsung.jpg?raw=true",
+      "title": "Samsung"
+    },
+    {
+      "id": 13,
+      "img": "https://github.com/XumoyunObid/images/blob/main/oppo.jpg?raw=true",
+      "title": "Oppo"
+    },
+    {
+      "id": 14,
+      "img": "https://github.com/XumoyunObid/images/blob/main/wmf.jpg?raw=true",
+      "title": "Wmf"
+    },
+    {
+      "id": 15,
+      "img": "https://github.com/XumoyunObid/images/blob/main/whirlpool.jpg?raw=true",
+      "title": "Whirlpool"
+    },
+    {
+      "id": 16,
+      "img": "https://github.com/XumoyunObid/images/blob/main/honoe.jpg?raw=true",
+      "title": "Honor"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "title": "Смартфоны и планшеты",
+      "datakey": "phones",
+      "img": "https://github.com/XumoyunObid/images/blob/main/phones.jpg?raw=true",
+      "attribute": [
+        {
+          "id": 1,
+          "name": "ram",
+          "keyName": "ram_like",
+          "values": [
+            4,
+            6,
+            8,
+            12
+          ]
+        },
+        {
+          "id": 2,
+          "name": "rom",
+          "keyName": "rom_like",
+          "values": [
+            128,
+            265,
+            512,
+            1024
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ноутбуки",
+      "datakey": "laptops",
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptops.png?raw=true"
+    },
+    {
+      "id": 3,
+      "title": "Авто мото товары",
+      "datakey": "auto",
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel.png?raw=true"
+    },
+    {
+      "id": 4,
+      "title": "Компьютеры для геймеров",
+      "datakey": "computers",
+      "img": "https://github.com/XumoyunObid/images/blob/main/setup.jpg?raw=true"
+    },
+    {
+      "id": 5,
+      "title": "Бытовая техника",
+      "datakey": "bytovaya-tekhnika",
+      "img": "https://github.com/XumoyunObid/images/blob/main/machine.jpg?raw=true"
+    },
+    {
+      "id": 6,
+      "title": "Спорт",
+      "datakey": "sport",
+      "img": "https://github.com/XumoyunObid/images/blob/main/tennis.jpg?raw=true"
+    }
+  ],
+  "allproducts": [
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone1.jpg?raw=true",
+      "title": "Samsung Galaxy A34 5G",
+      "brand": "Samsung",
+      "price": 2730000,
+      "id": 1,
+      "rom": 128,
+      "ram": 4,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone2.jpg?raw=true",
+      "title": "Redmi Note 13 Pro Black",
+      "brand": "Redmi",
+      "price": 4045000,
+      "id": 2,
+      "rom": 128,
+      "ram": 6,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone3.jpg?raw=true",
+      "title": "Redmi Note 13 Pro Green",
+      "brand": "Redmi",
+      "price": 4045000,
+      "id": 3,
+      "rom": 128,
+      "ram": 8,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone4.jpg?raw=true",
+      "title": "Xiaomi Redmi Note 11S",
+      "brand": "Redmi",
+      "price": 1732000,
+      "id": 4,
+      "rom": 128,
+      "ram": 8,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone5.jpg?raw=true",
+      "title": "Redmi 13C",
+      "brand": "Redmi",
+      "price": 1744000,
+      "id": 5,
+      "rom": 128,
+      "ram": 4,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone6.jpg?raw=true",
+      "title": "Samsung Galaxy A05s ",
+      "brand": "Samsung",
+      "price": 1700000,
+      "id": 6,
+      "rom": 128,
+      "ram": 4,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone7.jpg?raw=true",
+      "title": "Xiaomi Redmi Note 13 Green",
+      "brand": "Redmi",
+      "price": 3017000,
+      "id": 7,
+      "rom": 128,
+      "ram": 8,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone8.jpg?raw=true",
+      "title": "Samsung Galaxy A14 ",
+      "brand": "Samsung",
+      "price": 1732000,
+      "id": 8,
+      "rom": 128,
+      "ram": 6,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone9.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Purple",
+      "brand": "Samsung",
+      "price": 10365000,
+      "id": 9,
+      "rom": 128,
+      "ram": 12,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone10.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Grey",
+      "brand": "Samsung",
+      "price": 10365000,
+      "id": 10,
+      "rom": 128,
+      "ram": 12,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone11.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Ultra Titanium Black",
+      "brand": "Samsung",
+      "price": 16432000,
+      "id": 11,
+      "rom": 128,
+      "ram": 12,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone12.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Ultra Titanium Violet",
+      "brand": "Samsung",
+      "price": 16432000,
+      "id": 12,
+      "rom": 128,
+      "ram": 12,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone13.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Ultra Titanium Gray",
+      "brand": "Samsung",
+      "price": 16432000,
+      "id": 13,
+      "rom": 128,
+      "ram": 12,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone14.jpg?raw=true",
+      "title": "Honor X9b Sunrise Orange",
+      "brand": "Honor",
+      "price": 4505000,
+      "id": 14,
+      "rom": 128,
+      "ram": 8,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone15.jpg?raw=true",
+      "title": "Honor X9b Midnight Black",
+      "brand": "Honor",
+      "price": 4505000,
+      "id": 15,
+      "rom": 128,
+      "ram": 8,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone16.jpg?raw=true",
+      "title": "Nothing Phone 2 Black",
+      "brand": "Nothing",
+      "price": 11120000,
+      "id": 16,
+      "rom": 128,
+      "ram": 8,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone17.jpg?raw=true",
+      "title": "Apple iPhone 15 Plus Pink",
+      "brand": "Apple",
+      "price": 14940000,
+      "id": 17,
+      "rom": 128,
+      "ram": 8,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone18.jpg?raw=true",
+      "title": "Apple iPhone 15 Plus Yellow",
+      "brand": "Apple",
+      "price": 14940000,
+      "id": 18,
+      "rom": 128,
+      "ram": 8,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone19.jpg?raw=true",
+      "title": "Apple iPhone 15 Plus Green",
+      "brand": "Apple",
+      "price": 14940000,
+      "id": 19,
+      "rom": 512,
+      "ram": 6,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone20.jpg?raw=true",
+      "title": "Apple iPhone 15 Pro Max Natural titanium",
+      "brand": "Apple",
+      "price": 24611000,
+      "id": 20,
+      "rom": 512,
+      "ram": 8,
+      "color": "белый",
+      "screen": "6.2 /2400x1080 Пикс"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop1.jpg?raw=true",
+      "title": "Acer Aspire 5",
+      "brand": "Acer",
+      "price": 6320000,
+      "id": 21,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop2.jpg?raw=true",
+      "title": "MSI GF63",
+      "brand": "MSI",
+      "price": 9859000,
+      "id": 22,
+      "rom": 1024,
+      "ram": 16,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I7-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop3.jpg?raw=true",
+      "title": "HP Pavilion x360",
+      "brand": "HP",
+      "price": 8300000,
+      "id": 23,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I9-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop4.jpg?raw=true",
+      "title": "HP 15-FQ5295NIA",
+      "brand": "HP",
+      "price": 6737000,
+      "id": 24,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop5.jpg?raw=true",
+      "title": "Lenovo Ideapad 1",
+      "brand": "Lenovo",
+      "price": 7974000,
+      "id": 25,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop6.jpg?raw=true",
+      "title": "Asus TUF Gaming F15",
+      "brand": "Asus",
+      "price": 11000000,
+      "id": 26,
+      "rom": 1024,
+      "ram": 32,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I9-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop7.jpg?raw=true",
+      "title": "ASUS X1500EA-BR4022W",
+      "brand": "Asus",
+      "price": 4424000,
+      "id": 27,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop8.jpg?raw=true",
+      "title": "HP 15-dy5131wm",
+      "brand": "HP",
+      "price": 5000000,
+      "id": 28,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop9.jpg?raw=true",
+      "title": "Apple MacBook Pro 13 2020",
+      "brand": "Apple",
+      "price": 30000000,
+      "id": 29,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "M1 Pro",
+      "screentype": "AMOLED"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop10.jpg?raw=true",
+      "title": "Lenovo Ideapad 1 15IGL7 N4020",
+      "brand": "Lenovo",
+      "price": 2900000,
+      "id": 30,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop11.jpg?raw=true",
+      "title": "HP ENVY x360",
+      "brand": "HP",
+      "price": 9758000,
+      "id": 31,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop12.jpg?raw=true",
+      "title": "Asus Vivobook 15 M6500QH",
+      "brand": "Asus",
+      "price": 10680000,
+      "id": 32,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop13.jpg?raw=true",
+      "title": "Lenovo IP3 R7-5825U",
+      "brand": "Lenovo",
+      "price": 10680000,
+      "id": 33,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop14.jpg?raw=true",
+      "title": "Lenovo IP115AMN7",
+      "brand": "Lenovo",
+      "price": 4900000,
+      "id": 34,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop15.jpg?raw=true",
+      "title": "Asus Vivobook X1504ZA",
+      "brand": "Asus",
+      "price": 4719000,
+      "id": 35,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop16.jpg?raw=true",
+      "title": "Lenovo IP1 N4020",
+      "brand": "Lenovo",
+      "price": 3300000,
+      "id": 36,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop17.jpg?raw=true",
+      "title": "Asus TUF Dash F15 i5-12450H ",
+      "brand": "Asus",
+      "price": 11600000,
+      "id": 37,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop18.jpg?raw=true",
+      "title": "MacBook Air M2 15 Starlight ",
+      "brand": "Apple",
+      "price": 19715000,
+      "id": 38,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop19.jpg?raw=true",
+      "title": "MacBook Air M2 15 Grey ",
+      "brand": "Apple",
+      "price": 19715000,
+      "id": 39,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop20.jpg?raw=true",
+      "title": "Ноутбук Razer Blade 17 RZ09",
+      "brand": "Razer",
+      "price": 19715000,
+      "id": 40,
+      "rom": 265,
+      "ram": 8,
+      "color": "черный",
+      "screen": "15.6 FHD",
+      "cpu": "Intel Core I5-1335U",
+      "screentype": "TFT IPS"
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel1.jpg?raw=true",
+      "title": "середина руля Gentra",
+      "price": 270000,
+      "id": 41
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel2.jpg?raw=true",
+      "title": "Руль Lexsus",
+      "price": 1137000,
+      "id": 42
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel3.jpg?raw=true",
+      "title": "Руль Malibu 2 original black",
+      "price": 2266000,
+      "id": 43
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel4.jpg?raw=true",
+      "title": "Руль Malibu 2 Китай синий",
+      "price": 1787000,
+      "id": 44
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel5.jpg?raw=true",
+      "title": "Руль Malibu 2 Китай Черный",
+      "price": 1787900,
+      "id": 45
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel6.jpg?raw=true",
+      "title": "Шина Powertrac snow star pro 235/50/18",
+      "price": 1432200,
+      "id": 46
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel7.jpg?raw=true",
+      "title": "Шина Powertrac 225/55/18",
+      "price": 1166760,
+      "id": 47
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel8.jpg?raw=true",
+      "title": "Шина Powertrac 225/65/17",
+      "price": 1113840,
+      "id": 48
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel9.jpg?raw=true",
+      "title": "Шина Powertrac 215/60/17",
+      "price": 1018080,
+      "id": 49
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel10.jpg?raw=true",
+      "title": "Шина Powertrac 215/55/17",
+      "price": 955080,
+      "id": 50
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk1.jpg?raw=true",
+      "title": "Диска для автомобиля R15 5045 4-114 BM 4шт",
+      "price": 5272680,
+      "id": 51
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk2.jpg?raw=true",
+      "title": "Диска для автомобиля R15 752 4-100 BM RED 4шт",
+      "price": 3968160,
+      "id": 52
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk3.jpg?raw=true",
+      "title": "Диска для автомобиля R15 1370 4-100 BM 4шт",
+      "price": 4392360,
+      "id": 53
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk4.jpg?raw=true",
+      "title": "Диска для автомобиля R17 1034 8-100/114 BM 4шт",
+      "price": 5559120,
+      "id": 54
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk5.jpg?raw=true",
+      "title": "Диска для автомобиля R13 220 4-114 MATT BLACK REDLINE",
+      "price": 4392360,
+      "id": 55
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light1.jpg?raw=true",
+      "title": "Передние фара на Malibu-2 Premier правая сторона",
+      "price": 5957660,
+      "id": 56
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light2.jpg?raw=true",
+      "title": "Передние фара на Malibu-2 XL левая сторона",
+      "price": 5957660,
+      "id": 57
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light3.jpg?raw=true",
+      "title": "Задние фары на Spark 222 мерс песочный дизайн",
+      "price": 1841400,
+      "id": 58
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light4.jpg?raw=true",
+      "title": "Задние фары на Lasetti/Gentra в стиле Optra",
+      "price": 2124000,
+      "id": 59
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light5.jpeg?raw=true",
+      "title": "Заводская передняя фара автомобиля для Captiva",
+      "price": 2684000,
+      "id": 60
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers1.jpg?raw=true",
+      "title": "Монитор Ziffler 27B1800 27 (HDMI+DP+USB)",
+      "price": 1831000,
+      "id": 61
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers2.jpg?raw=true",
+      "title": "Монитор Ziffler 24Z440 24 FHD 100GHz",
+      "price": 1074000,
+      "id": 62
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers3.jpg?raw=true",
+      "title": "Монитор Msi pro mp243x fhd 100hz",
+      "price": 1958000,
+      "id": 63
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers4.jpg?raw=true",
+      "title": "Монитор Samsung S27C360EAM 75 Гц 27 FHD",
+      "price": 2400000,
+      "id": 64
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers5.jpg?raw=true",
+      "title": "Монитор Artel PRO3000 32CD 32'' Full HD Curved 165 Гц",
+      "price": 3051000,
+      "id": 65
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers6.jpeg?raw=true",
+      "title": "Беспроводная бесшумная игровая мышь hoco DI43 60347",
+      "price": 179000,
+      "id": 66
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers7.jpg?raw=true",
+      "title": "Проводная игровая мышь AVT GAMING MAG930",
+      "price": 316000,
+      "id": 67
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers8.jpg?raw=true",
+      "title": "Материнская плата Broleo ITX H110 Dual Channel DDR4",
+      "price": 2779000,
+      "id": 68
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers9.jpg?raw=true",
+      "title": "Материнская плата Asus ROG Strix Z790-F Gaming WiFi 6E",
+      "price": 6580000,
+      "id": 69
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers10.jpg?raw=true",
+      "title": "Видеокарта AORUS GeForce RTX 4080 Master 16G 16 ГБ",
+      "price": 23290000,
+      "id": 70
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers11.jpg?raw=true",
+      "title": "Принтер Canon MAXIFY GX4040 (5779C009AA)",
+      "price": 6820000,
+      "id": 71
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers12.jpg?raw=true",
+      "title": "Принтер Canon i-SENSYS MF651Cw EMEA (5158C009AA)",
+      "price": 5052000,
+      "id": 72
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers13.jpg?raw=true",
+      "title": "Принтер Epson L 3200",
+      "price": 2380000,
+      "id": 73
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers14.jpg?raw=true",
+      "title": "Принтер Epson L3250",
+      "price": 2395000,
+      "id": 74
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers15.jpg?raw=true",
+      "title": "Принтер Epson L3266",
+      "price": 3400000,
+      "id": 75
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers16.jpeg?raw=true",
+      "title": "Роутер Xiaomi Mi Router AX6000 61316",
+      "price": 1700000,
+      "id": 76
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers17.jpeg?raw=true",
+      "title": "4G LTE WI FI роутер CPF903-B 57426",
+      "price": 799000,
+      "id": 77
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers18.jpg?raw=true",
+      "title": "Беспроводной Wi-Fi Роутер LB-Link 4G LTE BL CPE450H",
+      "price": 599000,
+      "id": 78
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers19.jpg?raw=true",
+      "title": "Wi-Fi роутер TP-LINK Archer AX73",
+      "price": 1679000,
+      "id": 79
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers20.jpeg?raw=true",
+      "title": "Wi-Fi роутер Tp-Link Archer AX23",
+      "price": 850000,
+      "id": 80
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya1.jpg?raw=true",
+      "title": "Стиральная машина TCL P606FLW 6 Кг",
+      "price": 3574000,
+      "id": 81
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya2.jpg?raw=true",
+      "title": "Стиральная машина Midea MF200D80WB/T-C 8 кг",
+      "price": 6321000,
+      "id": 82
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya3.jpg?raw=true",
+      "title": "Стиральная машина Midea MF100W70/T-C 7Кг",
+      "price": 4190000,
+      "id": 83
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya4.jpg?raw=true",
+      "title": "Стиральная машина Midea MFN03W60/W-C (6 Кг)",
+      "price": 3480000,
+      "id": 84
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya5.jpg?raw=true",
+      "title": "Стиральная машина Midea MF100W60/T-C (6 Кг)",
+      "price": 3764000,
+      "id": 85
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya6.jpg?raw=true",
+      "title": "Стиральная машина Rulls F104INSW 10 Kg",
+      "price": 4989000,
+      "id": 86
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya7.jpg?raw=true",
+      "title": "Стиральная машина RULLS F82INSDG 8 Kg",
+      "price": 4736000,
+      "id": 87
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya8.jpg?raw=true",
+      "title": "Стиральная машина Rulls F84INSW 8 Kg",
+      "price": 4610000,
+      "id": 88
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya9.jpg?raw=true",
+      "title": "Стиральная машина Rulls F104DDSDG 10 Kg",
+      "price": 6580000,
+      "id": 89
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya10.jpg?raw=true",
+      "title": "Стиральная машина Samsung WW6100A",
+      "price": 7641000,
+      "id": 90
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya11.jpg?raw=true",
+      "title": "Стиральная машина Samsung WW80AG6S24AWLD 8 кг",
+      "price": 7426000,
+      "id": 91
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya12.jpg?raw=true",
+      "title": "Стиральная машина Samsung WW5100 8 кг",
+      "price": 6504000,
+      "id": 92
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya13.jpg?raw=true",
+      "title": "Стиральная машина автомат Moonx RWM1012DS Inverter",
+      "price": 4860000,
+      "id": 93
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya1.jpg?raw=true",
+      "title": "Стиральная машина TCL P606FLW 6 Кг",
+      "price": 3395000,
+      "id": 94
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya15.jpg?raw=true",
+      "title": "Стиральная машина MOONX SY8012W 8kg",
+      "price": 3852000,
+      "id": 95
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya16.jpg?raw=true",
+      "title": "Стиральная машина MoonX Inverter 9 кг FS9040GBD",
+      "price": 4850000,
+      "id": 96
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya17.jpg?raw=true",
+      "title": "Стиральная машина Ziffler T60-F1ING",
+      "price": 3726000,
+      "id": 97
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya18.jpg?raw=true",
+      "title": "Стиральная машина Ziffler T60-F1INW",
+      "price": 3360000,
+      "id": 98
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya21.jpg?raw=true",
+      "title": "Стиральная машина Immer S800MG",
+      "price": 5050000,
+      "id": 99
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya20.jpg?raw=true",
+      "title": "Стиральная машина Immer B12G",
+      "price": 5790000,
+      "id": 100
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport1.jpg?raw=true",
+      "title": "Бутсы Mercurial PG04",
+      "price": 374000,
+      "id": 101
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport2.jpeg?raw=true",
+      "title": "Бутсы Nike Mercurial Vapor 14 Elite PowerGym",
+      "price": 465000,
+      "id": 102
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport3.jpg?raw=true",
+      "title": "Бутсы Mercurial PG04",
+      "price": 370000,
+      "id": 103
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport4.jpg?raw=true",
+      "title": "Футбольный мяч Nike Academy",
+      "price": 280000,
+      "id": 104
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport5.jpg?raw=true",
+      "title": "Футбольный мяч Nike Strike (3153) красный 1",
+      "price": 280000,
+      "id": 105
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport6.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF 111 DS",
+      "price": 8099500,
+      "id": 106
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport7.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF-800",
+      "price": 500000,
+      "id": 107
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport8.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF-300",
+      "price": 6500000,
+      "id": 108
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport9.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF-200",
+      "price": 7800000,
+      "id": 109
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport10.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF-400",
+      "price": 7641000,
+      "id": 110
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport11.jpeg?raw=true",
+      "title": "Баскетбольный мяч Wilson Supreme NCAA",
+      "price": 881000,
+      "id": 111
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport12.jpeg?raw=true",
+      "title": "Баскетбольный мяч Palding 8800",
+      "price": 106400,
+      "id": 112
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport13.jpg?raw=true",
+      "title": "Набор для игр и баскетбола: доска с корзиной",
+      "price": 550000,
+      "id": 113
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport14.jpg?raw=true",
+      "title": "Баскетбольный мяч Molten PG 5000 PowerGym",
+      "price": 350000,
+      "id": 114
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport15.jpeg?raw=true",
+      "title": "Баскетбольный мяч PG7",
+      "price": 218000,
+      "id": 115
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport16.jpeg?raw=true",
+      "title": "Оригинальный волейбольный мяч Mikasa V330W",
+      "price": 823000,
+      "id": 116
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport17.jpeg?raw=true",
+      "title": "Волебольный мяч PG Mikassa MV210 PowerGym",
+      "price": 150000,
+      "id": 117
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport18.jpeg?raw=true",
+      "title": "Волебольный мяч Softset 1000 PowerGym",
+      "price": 180000,
+      "id": 118
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport19.jpeg?raw=true",
+      "title": "Волейбольный мяч Mikasa V300W",
+      "price": 950000,
+      "id": 119
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport20.jpeg?raw=true",
+      "title": "Спасательный жилеты Yamaha",
+      "price": 347000,
+      "id": 120
+    }
+  ],
+  "phones": [
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone1.jpg?raw=true",
+      "title": "Samsung Galaxy A34 5G",
+      "brand": "Samsung",
+      "price": 2730000,
+      "id": 1
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone2.jpg?raw=true",
+      "title": "Redmi Note 13 Pro Black",
+      "brand": "Redmi",
+      "price": 4045000,
+      "id": 2
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone3.jpg?raw=true",
+      "title": "Redmi Note 13 Pro Green",
+      "brand": "Redmi",
+      "price": 4045000,
+      "id": 3
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone4.jpg?raw=true",
+      "title": "Xiaomi Redmi Note 11S",
+      "brand": "Redmi",
+      "price": 1732000,
+      "id": 4
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone5.jpg?raw=true",
+      "title": "Redmi 13C",
+      "brand": "Redmi",
+      "price": 1744000,
+      "id": 5
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone6.jpg?raw=true",
+      "title": "Samsung Galaxy A05s ",
+      "brand": "Samsung",
+      "price": 1700000,
+      "id": 6
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone7.jpg?raw=true",
+      "title": "Xiaomi Redmi Note 13 Green",
+      "brand": "Redmi",
+      "price": 3017000,
+      "id": 7
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone8.jpg?raw=true",
+      "title": "Samsung Galaxy A14 ",
+      "brand": "Samsung",
+      "price": 1732000,
+      "id": 8
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone9.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Purple",
+      "brand": "Samsung",
+      "price": 10365000,
+      "id": 9
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone10.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Grey",
+      "brand": "Samsung",
+      "price": 10365000,
+      "id": 10
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone11.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Ultra Titanium Black",
+      "brand": "Samsung",
+      "price": 16432000,
+      "id": 11
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone12.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Ultra Titanium Violet",
+      "brand": "Samsung",
+      "price": 16432000,
+      "id": 12
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone13.jpg?raw=true",
+      "title": "Samsung Galaxy S24 Ultra Titanium Gray",
+      "brand": "Samsung",
+      "price": 16432000,
+      "id": 13
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone14.jpg?raw=true",
+      "title": "Honor X9b Sunrise Orange",
+      "brand": "Honor",
+      "price": 4505000,
+      "id": 14
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone15.jpg?raw=true",
+      "title": "Honor X9b Midnight Black",
+      "brand": "Honor",
+      "price": 4505000,
+      "id": 15
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone16.jpg?raw=true",
+      "title": "Nothing Phone 2 Black",
+      "brand": "Nothing",
+      "price": 11120000,
+      "id": 16
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone17.jpg?raw=true",
+      "title": "Apple iPhone 15 Plus Pink",
+      "brand": "Apple",
+      "price": 14940000,
+      "id": 17
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone18.jpg?raw=true",
+      "title": "Apple iPhone 15 Plus Yellow",
+      "brand": "Apple",
+      "price": 14940000,
+      "id": 18
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone19.jpg?raw=true",
+      "title": "Apple iPhone 15 Plus Green",
+      "brand": "Apple",
+      "price": 14940000,
+      "id": 19
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/phone20.jpg?raw=true",
+      "title": "Apple iPhone 15 Pro Max Natural titanium",
+      "brand": "Apple",
+      "price": 24611000,
+      "id": 20
+    }
+  ],
+  "laptops": [
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop1.jpg?raw=true",
+      "title": "Acer Aspire 5",
+      "brand": "Acer",
+      "price": 6320000,
+      "id": 21
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop2.jpg?raw=true",
+      "title": "MSI GF63",
+      "brand": "MSI",
+      "price": 9859000,
+      "id": 22
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop3.jpg?raw=true",
+      "title": "HP Pavilion x360",
+      "brand": "HP",
+      "price": 8300000,
+      "id": 23
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop4.jpg?raw=true",
+      "title": "HP 15-FQ5295NIA",
+      "brand": "HP",
+      "price": 6737000,
+      "id": 24
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop5.jpg?raw=true",
+      "title": "Lenovo Ideapad 1",
+      "brand": "Lenovo",
+      "price": 7974000,
+      "id": 25
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop6.jpg?raw=true",
+      "title": "Asus TUF Gaming F15",
+      "brand": "Asus",
+      "price": 11000000,
+      "id": 26
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop7.jpg?raw=true",
+      "title": "ASUS X1500EA-BR4022W",
+      "brand": "Asus",
+      "price": 4424000,
+      "id": 27
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop8.jpg?raw=true",
+      "title": "HP 15-dy5131wm",
+      "brand": "HP",
+      "price": 5000000,
+      "id": 28
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop9.jpg?raw=true",
+      "title": "Apple MacBook Pro 13 2020",
+      "brand": "Apple",
+      "price": 30000000,
+      "id": 29
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop10.jpg?raw=true",
+      "title": "Lenovo Ideapad 1 15IGL7 N4020",
+      "brand": "Lenovo",
+      "price": 2900000,
+      "id": 30
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop11.jpg?raw=true",
+      "title": "HP ENVY x360",
+      "brand": "HP",
+      "price": 9758000,
+      "id": 31
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop12.jpg?raw=true",
+      "title": "Asus Vivobook 15 M6500QH",
+      "brand": "Asus",
+      "price": 10680000,
+      "id": 32
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop13.jpg?raw=true",
+      "title": "Lenovo IP3 R7-5825U",
+      "brand": "Lenovo",
+      "price": 10680000,
+      "id": 33
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop14.jpg?raw=true",
+      "title": "Lenovo IP115AMN7",
+      "brand": "Lenovo",
+      "price": 4900000,
+      "id": 34
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop15.jpg?raw=true",
+      "title": "Asus Vivobook X1504ZA",
+      "brand": "Asus",
+      "price": 4719000,
+      "id": 35
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop16.jpg?raw=true",
+      "title": "Lenovo IP1 N4020",
+      "brand": "Lenovo",
+      "price": 3300000,
+      "id": 36
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop17.jpg?raw=true",
+      "title": "Asus TUF Dash F15 i5-12450H ",
+      "brand": "Asus",
+      "price": 11600000,
+      "id": 37
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop18.jpg?raw=true",
+      "title": "MacBook Air M2 15 Starlight ",
+      "brand": "Apple",
+      "price": 19715000,
+      "id": 38
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop19.jpg?raw=true",
+      "title": "MacBook Air M2 15 Grey ",
+      "brand": "Apple",
+      "price": 19715000,
+      "id": 39
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/laptop20.jpg?raw=true",
+      "title": "Ноутбук Razer Blade 17 RZ09",
+      "brand": "Razer",
+      "price": 19715000,
+      "id": 40
+    }
+  ],
+  "auto": [
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel1.jpg?raw=true",
+      "title": "середина руля Gentra",
+      "price": 270000,
+      "id": 41
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel2.jpg?raw=true",
+      "title": "Руль Lexsus",
+      "price": 1137000,
+      "id": 42
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel3.jpg?raw=true",
+      "title": "Руль Malibu 2 original black",
+      "price": 2266000,
+      "id": 43
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel4.jpg?raw=true",
+      "title": "Руль Malibu 2 Китай синий",
+      "price": 1787000,
+      "id": 44
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel5.jpg?raw=true",
+      "title": "Руль Malibu 2 Китай Черный",
+      "price": 1787900,
+      "id": 45
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel6.jpg?raw=true",
+      "title": "Шина Powertrac snow star pro 235/50/18",
+      "price": 1432200,
+      "id": 46
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel7.jpg?raw=true",
+      "title": "Шина Powertrac 225/55/18",
+      "price": 1166760,
+      "id": 47
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel8.jpg?raw=true",
+      "title": "Шина Powertrac 225/65/17",
+      "price": 1113840,
+      "id": 48
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel9.jpg?raw=true",
+      "title": "Шина Powertrac 215/60/17",
+      "price": 1018080,
+      "id": 49
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/wheel10.jpg?raw=true",
+      "title": "Шина Powertrac 215/55/17",
+      "price": 955080,
+      "id": 50
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk1.jpg?raw=true",
+      "title": "Диска для автомобиля R15 5045 4-114 BM 4шт",
+      "price": 5272680,
+      "id": 51
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk2.jpg?raw=true",
+      "title": "Диска для автомобиля R15 752 4-100 BM RED 4шт",
+      "price": 3968160,
+      "id": 52
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk3.jpg?raw=true",
+      "title": "Диска для автомобиля R15 1370 4-100 BM 4шт",
+      "price": 4392360,
+      "id": 53
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk4.jpg?raw=true",
+      "title": "Диска для автомобиля R17 1034 8-100/114 BM 4шт",
+      "price": 5559120,
+      "id": 54
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/disk5.jpg?raw=true",
+      "title": "Диска для автомобиля R13 220 4-114 MATT BLACK REDLINE",
+      "price": 4392360,
+      "id": 55
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light1.jpg?raw=true",
+      "title": "Передние фара на Malibu-2 Premier правая сторона",
+      "price": 5957660,
+      "id": 56
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light2.jpg?raw=true",
+      "title": "Передние фара на Malibu-2 XL левая сторона",
+      "price": 5957660,
+      "id": 57
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light3.jpg?raw=true",
+      "title": "Задние фары на Spark 222 мерс песочный дизайн",
+      "price": 1841400,
+      "id": 58
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light4.jpg?raw=true",
+      "title": "Задние фары на Lasetti/Gentra в стиле Optra",
+      "price": 2124000,
+      "id": 59
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/light5.jpeg?raw=true",
+      "title": "Заводская передняя фара автомобиля для Captiva",
+      "price": 2684000,
+      "id": 60
+    }
+  ],
+  "computers": [
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers1.jpg?raw=true",
+      "title": "Монитор Ziffler 27B1800 27 (HDMI+DP+USB)",
+      "price": 1831000,
+      "id": 51
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers2.jpg?raw=true",
+      "title": "Монитор Ziffler 24Z440 24 FHD 100GHz",
+      "price": 1074000,
+      "id": 52
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers3.jpg?raw=true",
+      "title": "Монитор Msi pro mp243x fhd 100hz",
+      "price": 1958000,
+      "id": 53
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers4.jpg?raw=true",
+      "title": "Монитор Samsung S27C360EAM 75 Гц 27 FHD",
+      "price": 2400000,
+      "id": 54
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers5.jpg?raw=true",
+      "title": "Монитор Artel PRO3000 32CD 32'' Full HD Curved 165 Гц",
+      "price": 3051000,
+      "id": 55
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers6.jpeg?raw=true",
+      "title": "Беспроводная бесшумная игровая мышь hoco DI43 60347",
+      "price": 179000,
+      "id": 56
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers7.jpg?raw=true",
+      "title": "Проводная игровая мышь AVT GAMING MAG930",
+      "price": 316000,
+      "id": 57
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers8.jpg?raw=true",
+      "title": "Материнская плата Broleo ITX H110 Dual Channel DDR4",
+      "price": 2779000,
+      "id": 58
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers9.jpg?raw=true",
+      "title": "Материнская плата Asus ROG Strix Z790-F Gaming WiFi 6E",
+      "price": 6580000,
+      "id": 59
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers10.jpg?raw=true",
+      "title": "Видеокарта AORUS GeForce RTX 4080 Master 16G 16 ГБ",
+      "price": 23290000,
+      "id": 60
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers11.jpg?raw=true",
+      "title": "Принтер Canon MAXIFY GX4040 (5779C009AA)",
+      "price": 6820000,
+      "id": 61
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers12.jpg?raw=true",
+      "title": "Принтер Canon i-SENSYS MF651Cw EMEA (5158C009AA)",
+      "price": 5052000,
+      "id": 62
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers13.jpg?raw=true",
+      "title": "Принтер Epson L 3200",
+      "price": 2380000,
+      "id": 63
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers14.jpg?raw=true",
+      "title": "Принтер Epson L3250",
+      "price": 2395000,
+      "id": 64
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers15.jpg?raw=true",
+      "title": "Принтер Epson L3266",
+      "price": 3400000,
+      "id": 65
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers16.jpeg?raw=true",
+      "title": "Роутер Xiaomi Mi Router AX6000 61316",
+      "price": 1700000,
+      "id": 66
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers17.jpeg?raw=true",
+      "title": "4G LTE WI FI роутер CPF903-B 57426",
+      "price": 799000,
+      "id": 67
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers18.jpg?raw=true",
+      "title": "Беспроводной Wi-Fi Роутер LB-Link 4G LTE BL CPE450H",
+      "price": 599000,
+      "id": 68
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers19.jpg?raw=true",
+      "title": "Wi-Fi роутер TP-LINK Archer AX73",
+      "price": 1679000,
+      "id": 69
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/computers20.jpeg?raw=true",
+      "title": "Wi-Fi роутер Tp-Link Archer AX23",
+      "price": 850000,
+      "id": 70
+    }
+  ],
+  "bytovaya-tekhnika": [
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya1.jpg?raw=true",
+      "title": "Стиральная машина TCL P606FLW 6 Кг",
+      "price": 3574000,
+      "id": 71
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya2.jpg?raw=true",
+      "title": "Стиральная машина Midea MF200D80WB/T-C 8 кг",
+      "price": 6321000,
+      "id": 72
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya3.jpg?raw=true",
+      "title": "Стиральная машина Midea MF100W70/T-C 7Кг",
+      "price": 4190000,
+      "id": 73
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya4.jpg?raw=true",
+      "title": "Стиральная машина Midea MFN03W60/W-C (6 Кг)",
+      "price": 3480000,
+      "id": 74
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya5.jpg?raw=true",
+      "title": "Стиральная машина Midea MF100W60/T-C (6 Кг)",
+      "price": 3764000,
+      "id": 75
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya6.jpg?raw=true",
+      "title": "Стиральная машина Rulls F104INSW 10 Kg",
+      "price": 4989000,
+      "id": 76
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya7.jpg?raw=true",
+      "title": "Стиральная машина RULLS F82INSDG 8 Kg",
+      "price": 4736000,
+      "id": 77
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya8.jpg?raw=true",
+      "title": "Стиральная машина Rulls F84INSW 8 Kg",
+      "price": 4610000,
+      "id": 78
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya9.jpg?raw=true",
+      "title": "Стиральная машина Rulls F104DDSDG 10 Kg",
+      "price": 6580000,
+      "id": 79
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya10.jpg?raw=true",
+      "title": "Стиральная машина Samsung WW6100A",
+      "price": 7641000,
+      "id": 80
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya11.jpg?raw=true",
+      "title": "Стиральная машина Samsung WW80AG6S24AWLD 8 кг",
+      "price": 7426000,
+      "id": 81
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya12.jpg?raw=true",
+      "title": "Стиральная машина Samsung WW5100 8 кг",
+      "price": 6504000,
+      "id": 82
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya13.jpg?raw=true",
+      "title": "Стиральная машина автомат Moonx RWM1012DS Inverter",
+      "price": 4860000,
+      "id": 83
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya1.jpg?raw=true",
+      "title": "Стиральная машина TCL P606FLW 6 Кг",
+      "price": 3395000,
+      "id": 84
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya15.jpg?raw=true",
+      "title": "Стиральная машина MOONX SY8012W 8kg",
+      "price": 3852000,
+      "id": 85
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya16.jpg?raw=true",
+      "title": "Стиральная машина MoonX Inverter 9 кг FS9040GBD",
+      "price": 4850000,
+      "id": 86
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya17.jpg?raw=true",
+      "title": "Стиральная машина Ziffler T60-F1ING",
+      "price": 3726000,
+      "id": 87
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya18.jpg?raw=true",
+      "title": "Стиральная машина Ziffler T60-F1INW",
+      "price": 3360000,
+      "id": 88
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya21.jpg?raw=true",
+      "title": "Стиральная машина Immer S800MG",
+      "price": 5050000,
+      "id": 89
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/bytovaya20.jpg?raw=true",
+      "title": "Стиральная машина Immer B12G",
+      "price": 5790000,
+      "id": 90
+    }
+  ],
+  "sport": [
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport1.jpg?raw=true",
+      "title": "Бутсы Mercurial PG04",
+      "price": 374000,
+      "id": 91
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport2.jpeg?raw=true",
+      "title": "Бутсы Nike Mercurial Vapor 14 Elite PowerGym",
+      "price": 465000,
+      "id": 92
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport3.jpg?raw=true",
+      "title": "Бутсы Mercurial PG04",
+      "price": 370000,
+      "id": 93
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport4.jpg?raw=true",
+      "title": "Футбольный мяч Nike Academy",
+      "price": 280000,
+      "id": 94
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport5.jpg?raw=true",
+      "title": "Футбольный мяч Nike Strike (3153) красный 1",
+      "price": 280000,
+      "id": 95
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport6.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF 111 DS",
+      "price": 8099500,
+      "id": 96
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport7.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF-800",
+      "price": 500000,
+      "id": 97
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport8.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF-300",
+      "price": 6500000,
+      "id": 98
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport9.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF-200",
+      "price": 7800000,
+      "id": 99
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport10.jpg?raw=true",
+      "title": "Беговая дорожка Grand Fitness GF-400",
+      "price": 7641000,
+      "id": 100
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport11.jpeg?raw=true",
+      "title": "Баскетбольный мяч Wilson Supreme NCAA",
+      "price": 881000,
+      "id": 101
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport12.jpeg?raw=true",
+      "title": "Баскетбольный мяч Palding 8800",
+      "price": 106400,
+      "id": 102
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport13.jpg?raw=true",
+      "title": "Набор для игр и баскетбола: доска с корзиной",
+      "price": 550000,
+      "id": 103
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport14.jpg?raw=true",
+      "title": "Баскетбольный мяч Molten PG 5000 PowerGym",
+      "price": 350000,
+      "id": 104
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport15.jpeg?raw=true",
+      "title": "Баскетбольный мяч PG7",
+      "price": 218000,
+      "id": 105
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport16.jpeg?raw=true",
+      "title": "Оригинальный волейбольный мяч Mikasa V330W",
+      "price": 823000,
+      "id": 106
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport17.jpeg?raw=true",
+      "title": "Волебольный мяч PG Mikassa MV210 PowerGym",
+      "price": 150000,
+      "id": 107
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport18.jpeg?raw=true",
+      "title": "Волебольный мяч Softset 1000 PowerGym",
+      "price": 180000,
+      "id": 108
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport19.jpeg?raw=true",
+      "title": "Волейбольный мяч Mikasa V300W",
+      "price": 950000,
+      "id": 109
+    },
+    {
+      "img": "https://github.com/XumoyunObid/images/blob/main/sport20.jpeg?raw=true",
+      "title": "Спасательный жилеты Yamaha",
+      "price": 347000,
+      "id": 110
+    }
+  ]
+}
